@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import {All_POSTS_SLUGS, POST_QUERY} from "../../graphql/_post";
 import client from "../../graphql/client";
 import {Header, Render} from "../../components/Render";
-import Config from '../../../config';
+import Config from '../../config';
 
 
 export default function Post({ post}) {
